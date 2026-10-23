@@ -1,0 +1,2 @@
+import React from 'react';import {interpolate,useCurrentFrame} from 'remotion';
+export const LayeredParallax:React.FC<{children:React.ReactNode;depth?:number;direction?:1|-1}> = ({children,depth=1,direction=1})=>{const f=useCurrentFrame();const x=interpolate(f,[0,390],[0,-26*depth*direction],{extrapolateRight:'clamp'});return <div style={{position:'absolute',inset:0,transform:`translateX(${x}px) scale(${1+depth*.008})`}}>{children}</div>};

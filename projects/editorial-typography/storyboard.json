@@ -1,0 +1,73 @@
+{
+  "project": "editorial-typography-rebuild",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 420
+  },
+  "reference": {
+    "file": "references/originals/editorial-typography.mp4",
+    "durationSeconds": 17.513991,
+    "sourceSize": "720x1280",
+    "sha256": "cfd2818409fdf8ee36a6b962dc7bd22c14c87ef6caf5f73cef3c9d7473d3c682"
+  },
+  "beats": [
+    {
+      "id": "statue-headline",
+      "source": "0–2.7s",
+      "output": "0–2.6s",
+      "text": "no one tells you",
+      "layers": "warm-white field; thin italic kicker; oversized rose headline behind foreground marble bust",
+      "motion": "headline blur-to-sharp, slight rise and scale; bust enters from lower-right; oversized type occluded by bust"
+    },
+    {
+      "id": "chess-statement",
+      "source": "2.7–6.8s",
+      "output": "2.6–5.8s",
+      "text": "A brand without a content strategy is just posting and hoping",
+      "layers": "white editorial panel; black pointed corner matte; chess pair in lower foreground; barcode",
+      "motion": "support copy holds; display type builds line by line with spring-eased blur reveal; chess overlaps baseline"
+    },
+    {
+      "id": "growth-plan",
+      "source": "6.8–7.8s",
+      "output": "5.8–7.0s",
+      "text": "and hope is not a growth plan",
+      "layers": "near-black field; burgundy edge light; centered italic copy",
+      "motion": "short glow/softness resolves to sharp text; hard tonal interstitial"
+    },
+    {
+      "id": "phone-eyes",
+      "source": "7.8–11.5s",
+      "output": "7.0–10.2s",
+      "text": "Every piece of content should either attract new eyes",
+      "layers": "white field; phone on gimbal foreground; large left-aligned rose type behind device",
+      "motion": "kicker type-on; foreground rig rises from bottom; display phrase stacks and sharpens; supporting line follows"
+    },
+    {
+      "id": "attention-action",
+      "source": "11.5–13.8s",
+      "output": "10.2–11.4s",
+      "text": "or convert attention into action",
+      "layers": "black card with rose corner glow",
+      "motion": "blur resolves at center, rose emphasis enters after white lead-in"
+    },
+    {
+      "id": "statue-consistency",
+      "source": "13.8–16.8s",
+      "output": "11.4–13.0s",
+      "text": "Posting randomly does none of the three consistently",
+      "layers": "white field, typing statue and laptop foreground, social glyphs; red type behind statue",
+      "motion": "foreground statue rises; type sharpens and stacks; slow camera push"
+    },
+    {
+      "id": "follow-cta",
+      "source": "16.8–17.5s",
+      "output": "13.0–14.0s",
+      "text": "Follow for more branding insights",
+      "layers": "circular rose profile mark centered on warm white with small italic CTA",
+      "motion": "compact end card resolves and holds"
+    }
+  ]
+}

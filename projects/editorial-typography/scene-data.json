@@ -1,0 +1,67 @@
+{
+  "id": "editorial-typography-rebuild",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 420
+  },
+  "scenes": [
+    {
+      "id": "statue-headline",
+      "from": 0,
+      "durationInFrames": 78,
+      "kind": "bust",
+      "headline": "no one\ntells you",
+      "kicker": "Here’s the branding secret"
+    },
+    {
+      "id": "chess-statement",
+      "from": 78,
+      "durationInFrames": 96,
+      "kind": "chess",
+      "headline": "is just\nposting and\nhoping",
+      "kicker": "A brand without a content strategy"
+    },
+    {
+      "id": "growth-plan",
+      "from": 174,
+      "durationInFrames": 36,
+      "kind": "interstitial",
+      "lead": "and hope is",
+      "accent": "not a growth plan"
+    },
+    {
+      "id": "phone-eyes",
+      "from": 210,
+      "durationInFrames": 96,
+      "kind": "phone",
+      "headline": "either\nattract\nnew eyes",
+      "kicker": "Every piece of content should",
+      "support": "Build trust with existing ones"
+    },
+    {
+      "id": "attention-action",
+      "from": 306,
+      "durationInFrames": 36,
+      "kind": "interstitial",
+      "lead": "or convert attention",
+      "accent": "into action"
+    },
+    {
+      "id": "statue-consistency",
+      "from": 342,
+      "durationInFrames": 48,
+      "kind": "typing",
+      "headline": "none of the\nthree consistently",
+      "kicker": "Posting randomly does"
+    },
+    {
+      "id": "follow-cta",
+      "from": 390,
+      "durationInFrames": 30,
+      "kind": "cta",
+      "headline": "Follow for more branding insights"
+    }
+  ]
+}
