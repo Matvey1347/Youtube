@@ -1,0 +1,3 @@
+import React from 'react';
+/** Explicit depth stack: background, type, middle, foreground. */
+export const ForegroundOcclusion:React.FC<{background?:React.ReactNode;type?:React.ReactNode;middle?:React.ReactNode;foreground?:React.ReactNode}>=({background,type,middle,foreground})=><div style={{position:'absolute',inset:0,isolation:'isolate'}}>{background&&<div style={{position:'absolute',inset:0,zIndex:0}}>{background}</div>}{type&&<div style={{position:'absolute',inset:0,zIndex:1}}>{type}</div>}{middle&&<div style={{position:'absolute',inset:0,zIndex:2}}>{middle}</div>}{foreground&&<div style={{position:'absolute',inset:0,zIndex:3,pointerEvents:'none'}}>{foreground}</div>}</div>;

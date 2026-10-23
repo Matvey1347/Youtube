@@ -1,0 +1,6 @@
+import React from 'react';
+import {useCurrentFrame} from 'remotion';
+export type OrganicLiquidWipeProps={children:React.ReactNode;from?:number;duration?:number;amplitude?:number;waves?:number;direction?:'left'|'right'};
+export const buildOrganicWipePolygon=(frame:number,from:number,duration:number,amplitude:number,waves:number,direction:'left'|'right'='left',width=1920,height=1080)=>{const p=Math.max(0,Math.min(1,(frame-from)/duration));const boundary=p*width;const points=Array.from({length:41},(_,i)=>{const y=i*height/40;const envelope=Math.sin(Math.PI*p);const x=boundary+Math.sin((y/height)*Math.PI*2*waves+frame*.035)*amplitude*envelope;return `${direction==='left'?x:width-x},${y}`}).join(' ');return direction==='left'?`0,0 ${points} 0,${height}`:`${width},0 ${points} ${width},${height}`};
+/** Animated polygon edge with deterministic sine deformation and eased progress. */
+export const OrganicLiquidWipe:React.FC<OrganicLiquidWipeProps>=({children,from=0,duration=24,amplitude=80,waves=2.4,direction='left'})=>{const f=useCurrentFrame();const polygon=buildOrganicWipePolygon(f,from,duration,amplitude,waves,direction);return <div style={{position:'absolute',inset:0,clipPath:`polygon(${polygon})`}}>{children}</div>};

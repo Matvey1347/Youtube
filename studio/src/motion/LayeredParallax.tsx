@@ -1,0 +1,4 @@
+import React from 'react';import {Easing,interpolate,useCurrentFrame} from 'remotion';
+export type LayeredParallaxProps={children:React.ReactNode;depth?:number;direction?:1|-1;duration?:number;distance?:number};
+/** Independent depth drift. Keep depth order stable and provide image overscan. */
+export const LayeredParallax:React.FC<LayeredParallaxProps> = ({children,depth=1,direction=1,duration=90,distance=28})=>{const f=useCurrentFrame();const progress=interpolate(f,[0,duration],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(.35,0,.65,1)});const x=progress*distance*depth*direction;const y=progress*distance*.16*depth;return <div style={{position:'absolute',inset:0,transform:`translate3d(${x}px,${y}px,0) scale(${1+depth*.008})`,willChange:'transform'}}>{children}</div>};

@@ -6,7 +6,15 @@
     "studio": "remotion studio src/index.ts --public-dir ../projects",
     "typecheck": "tsc --noEmit",
     "qa": "tsx scripts/qa.ts",
-    "smoke": "npm run qa && remotion render src/index.ts DocumentaryStudio out/studio-smoke-test.mp4 --concurrency=1 --timeout=120000 --port=3211 --public-dir ../projects"
+    "smoke": "npm run qa && remotion render src/index.ts DocumentaryStudio out/studio-smoke-test.mp4 --concurrency=1 --timeout=120000 --port=3211 --public-dir ../projects",
+    "render:editorial": "remotion render src/index.ts EditorialTypography ../out/editorial-typography-v2.mp4 --concurrency=1 --timeout=120000 --port=3213 --public-dir ..",
+    "render:motion-test": "remotion render src/index.ts MotionLibrarySmoke ../out/motion-library-smoke.mp4 --concurrency=1 --timeout=120000 --port=3214 --public-dir ..",
+    "render:comparison": "remotion render src/index.ts EditorialComparison ../out/editorial-typography-comparison.mp4 --concurrency=1 --timeout=120000 --port=3215 --public-dir ..",
+    "render:version-comparison": "remotion render src/index.ts EditorialVersionComparison ../out/editorial-typography-v1-v2-comparison.mp4 --concurrency=1 --timeout=120000 --port=3217 --public-dir ..",
+    "preview:editorial": "remotion studio src/index.ts --public-dir .. --port=3216",
+    "qa:editorial": "tsx scripts/qa-editorial.ts",
+    "test:motion": "tsx --test scripts/editorial-motion.test.ts",
+    "qa:all": "npm run typecheck && npm run test:motion && npm run qa:editorial"
   },
   "dependencies": {
     "@remotion/cli": "4.0.538",
