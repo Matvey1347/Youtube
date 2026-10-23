@@ -1,0 +1,25 @@
+{
+  "name": "documentary-video-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts --public-dir ../projects",
+    "typecheck": "tsc --noEmit",
+    "qa": "tsx scripts/qa.ts",
+    "smoke": "npm run qa && remotion render src/index.ts DocumentaryStudio out/studio-smoke-test.mp4 --concurrency=1 --timeout=120000 --port=3211 --public-dir ../projects"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/media": "4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.7",
+    "@types/react": "19.2.7",
+    "tsx": "^4.21.0",
+    "typescript": "5.9.3"
+  }
+}

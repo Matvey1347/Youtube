@@ -2,6 +2,20 @@
 
 This repository contains the editable Remotion source and media for the Warren Buffett documentary work.
 
+## Reusable video studio foundation
+
+[`studio/`](studio/) is the new data-driven Remotion renderer. Projects keep scripts, storyboard, style tokens, scene timing, captions, audio tracks and asset manifests under [`projects/`](projects/) instead of copying a previous video's React source. Start with the three-second smoke project:
+
+```bash
+cd studio
+npm ci
+npm run studio
+```
+
+Start a different project by passing its manifest as input props: `npm run studio -- --props ../projects/<project-id>/project.json`. The Studio renderer recalculates its duration and frame rate from the selected project data.
+
+See [`ARCHITECTURE.md`](ARCHITECTURE.md) for the module boundaries and audit, and [`AGENTS.md`](AGENTS.md) for the full command list.
+
 ## Current 15-second pilot
 
 - [Watch the finished English V2 MP4](buffett-pilot-v2/out/buffett-pilot-v2-15s.mp4)

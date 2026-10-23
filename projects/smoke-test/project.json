@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "smoke-test",
+  "title": "Studio smoke test",
+  "brief": "A short, provider-free render proving a new project can be driven by project data.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "style": {"background": "#f2eee4", "foreground": "#242624", "accent": "#a84a46", "muted": "#615c52"},
+  "storyboard": [
+    {"sceneId": "welcome", "intent": "Check that the renderer displays data-driven copy.", "narration": "The studio is ready for a new story.", "visualDirection": "Quiet editorial card on warm paper."}
+  ],
+  "scenes": [
+    {"id": "welcome", "kind": "image-panel", "from": 0, "durationInFrames": 90, "image": "smoke-test/assets/paper.svg", "title": "A new story starts here.", "transition": "cut"}
+  ],
+  "captions": [],
+  "audio": [],
+  "assets": ["assets/paper.svg"]
+}
