@@ -1,0 +1,73 @@
+{
+  "project": "editorial-typography-rebuild",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 420
+  },
+  "reference": {
+    "file": "references/originals/editorial-typography.mp4",
+    "durationSeconds": 17.513991,
+    "sourceSize": "720x1280",
+    "sha256": "cfd2818409fdf8ee36a6b962dc7bd22c14c87ef6caf5f73cef3c9d7473d3c682"
+  },
+  "beats": [
+    {
+      "id": "statue-headline",
+      "source": "0–2.7s",
+      "output": "0–2.4s",
+      "text": "no one tells you",
+      "layers": "warm-white textured field; high-detail photographed marble bust; oversized rose headline behind foreground object",
+      "motion": "headline resolves from blur and rises in stagger; bust drifts independently across type; push-in and organic wipe"
+    },
+    {
+      "id": "chess-statement",
+      "source": "2.7–6.8s",
+      "output": "2.4–5.6s",
+      "text": "A brand without a content strategy is just posting and hoping",
+      "layers": "large photographic chessboard across lower half; display phrase intersects the foreground chess pieces; dark edge vignette",
+      "motion": "headline assembles by word; chess photograph pushes forward under the type; diagonal organic reveal and camera push"
+    },
+    {
+      "id": "growth-plan",
+      "source": "6.8–7.8s",
+      "output": "5.6–6.4s",
+      "text": "and hope is not a growth plan",
+      "layers": "near-black field; burgundy edge glow; centered italic copy",
+      "motion": "blur resolves to sharp text; restrained glow pulse; short breathing hold"
+    },
+    {
+      "id": "phone-eyes",
+      "source": "7.8–11.5s",
+      "output": "6.4–9.6s",
+      "text": "Every piece of content should either attract new eyes",
+      "layers": "photographic hands and phone crop with soft edge mask; display type sits behind the phone and hands",
+      "motion": "kicker reveals through a mask; three-line headline arrives in a stagger; foreground crop drifts at a different parallax rate"
+    },
+    {
+      "id": "attention-action",
+      "source": "11.5–13.8s",
+      "output": "9.6–11.2s",
+      "text": "or convert attention into action",
+      "layers": "near-black field with a soft burgundy pool; centered two-part message",
+      "motion": "lead resolves first; accent sharpens after it; light contracts during the hold"
+    },
+    {
+      "id": "statue-consistency",
+      "source": "13.8–16.8s",
+      "output": "11.2–13.6s",
+      "text": "Posting randomly does none of the three consistently",
+      "layers": "archival high-detail monochrome photograph of a woman at a typewriter; red editorial glyphs; text crosses behind the image",
+      "motion": "photo rises from soft focus; headline builds over three beats; independent pan and foreground occlusion"
+    },
+    {
+      "id": "follow-cta",
+      "source": "16.8–17.5s",
+      "output": "13.6–14.0s",
+      "text": "Follow for more branding insights",
+      "layers": "warm-white end field; rose circular monogram; centered call to action",
+      "motion": "monogram eases in with a compact scale settle; text reveals and holds"
+    }
+  ]
+}
