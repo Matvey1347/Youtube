@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "file": "quarter-1936-obverse.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Etats-Unis,_1-4_dollar,_Philadelphie,_1936_-_btv1b11336617j_(1_of_2).jpg",
+      "original_collection": "Bibliothèque nationale de France / Gallica",
+      "object": "1936 Philadelphia Washington quarter (25 cents) obverse",
+      "coin_year": 1936,
+      "image_dimensions_px": [
+        2702,
+        2702
+      ],
+      "rights": "Public domain, as listed in Wikimedia Commons file metadata",
+      "credit": "BnF/Gallica via Wikimedia Commons",
+      "limits": "Use as the actual 1936 coin type, not as a claim that this particular coin was handled by Buffett. Preserve denomination and date.",
+      "size_bytes": 1009053
+    },
+    {
+      "file": "quarter-1936-reverse.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Etats-Unis,_1-4_dollar,_Philadelphie,_1936_-_btv1b11336617j_(2_of_2).jpg",
+      "original_collection": "Bibliothèque nationale de France / Gallica",
+      "object": "1936 Philadelphia Washington quarter (25 cents) reverse",
+      "coin_year": 1936,
+      "image_dimensions_px": [
+        2702,
+        2702
+      ],
+      "rights": "Public domain, as listed in Wikimedia Commons file metadata",
+      "credit": "BnF/Gallica via Wikimedia Commons",
+      "limits": "Use as the actual 1936 coin type, not as a claim that this particular coin was handled by Buffett. Preserve denomination and date.",
+      "size_bytes": 1033313
+    },
+    {
+      "file": "nickel-1936-obverse.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Etats-Unis,_5_cents,_Philadelphie,_1936_-_btv1b113367134_(1_of_2).jpg",
+      "original_collection": "Bibliothèque nationale de France / Gallica",
+      "object": "1936 Philadelphia Buffalo nickel (5 cents) obverse",
+      "coin_year": 1936,
+      "image_dimensions_px": [
+        2379,
+        2379
+      ],
+      "rights": "Public domain, as listed in Wikimedia Commons file metadata",
+      "credit": "BnF/Gallica via Wikimedia Commons",
+      "limits": "Use as the actual 1936 coin type, not as a claim that this particular coin was handled by Buffett. Preserve denomination and date.",
+      "size_bytes": 770322
+    },
+    {
+      "file": "nickel-1936-reverse.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Etats-Unis,_5_cents,_Philadelphie,_1936_-_btv1b113367134_(2_of_2).jpg",
+      "original_collection": "Bibliothèque nationale de France / Gallica",
+      "object": "1936 Philadelphia Buffalo nickel (5 cents) reverse",
+      "coin_year": 1936,
+      "image_dimensions_px": [
+        2379,
+        2379
+      ],
+      "rights": "Public domain, as listed in Wikimedia Commons file metadata",
+      "credit": "BnF/Gallica via Wikimedia Commons",
+      "limits": "Use as the actual 1936 coin type, not as a claim that this particular coin was handled by Buffett. Preserve denomination and date.",
+      "size_bytes": 765742
+    }
+  ]
+}

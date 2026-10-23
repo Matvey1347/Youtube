@@ -1,0 +1,17 @@
+{
+  "provider": "Lumean API",
+  "templateId": "01a164cf-414a-736e-a805-08d5bfe87b07",
+  "voice": "Maxim — Deep Russian Narrator",
+  "voiceId": "gMIlPNegT3C1SdNBp6rW",
+  "model": "eleven_multilingual_v2",
+  "orderId": "01a16805-f11a-73bf-8f43-e2e264b39746",
+  "narration": "В одиннадцать лет Баффет купил первую акцию. В тринадцать — списал тридцать пять долларов за велосипед для газетного маршрута. Его стратегия: сильный бизнес, терпение и сложный процент. Главное преимущество? Время.",
+  "output": "narration.mp3",
+  "serviceFiles": [
+    "storage/18042/orders/01a16805-f11a-73bf-8f43-e2e264b39746/output/chunks/0/service/subtitles.srt",
+    "storage/18042/orders/01a16805-f11a-73bf-8f43-e2e264b39746/output/chunks/0/service/subtitles.vtt",
+    "storage/18042/orders/01a16805-f11a-73bf-8f43-e2e264b39746/output/chunks/0/service/subtitles.lrc",
+    "storage/18042/orders/01a16805-f11a-73bf-8f43-e2e264b39746/output/chunks/0/service/alignment.csv",
+    "storage/18042/orders/01a16805-f11a-73bf-8f43-e2e264b39746/output/chunks/0/service/result.json"
+  ]
+}

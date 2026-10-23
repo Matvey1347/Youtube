@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "id": "omaha-1938-loc",
+      "file": "../../public/assets/pilot/omaha-1938-loc.jpg",
+      "source_url": "https://www.loc.gov/pictures/collection/fsa/item/2017767975/",
+      "download_url": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b14000/8b14200/8b14227v.jpg",
+      "repository": "Library of Congress, Farm Security Administration/Office of War Information Black-and-White Negatives",
+      "author": "John Vachon",
+      "date": "November 1938",
+      "dimensions": "782 × 1024",
+      "rights": "Library of Congress rights advisory: No known restrictions. The FSA/OWI black-and-white negatives collection is described by the Library as public domain and free to reuse.",
+      "attribution": "John Vachon, Library of Congress, Prints & Photographs Division, FSA/OWI Collection, LC-USF34-008895-D.",
+      "historical_description": "Untitled photograph, possibly related to loan companies on lower Douglas Street, Omaha, Nebraska. The catalog says the photograph is untitled and its precise relationship to another negative is uncertain.",
+      "suggested_scene": "Opening Omaha 1930s street collage; use as period context behind newly illustrated figures and props.",
+      "limits": "This is not a photograph of Warren Buffett, his family, his home, or a verified shop he visited. Do not label it as such. Credit and caption should preserve the uncertainty in the LOC catalog title."
+    }
+  ]
+}

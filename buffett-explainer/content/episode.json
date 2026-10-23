@@ -1,0 +1,30 @@
+{
+  "title": "Уоррен Баффет за 15 секунд",
+  "narration": "В одиннадцать лет Баффет купил первую акцию. В тринадцать — списал тридцать пять долларов за велосипед для газетного маршрута. Его стратегия: сильный бизнес, терпение и сложный процент. Главное преимущество? Время.",
+  "captions": [
+    {"from": 0, "to": 2.40, "text": "В одиннадцать лет Баффет купил первую акцию."},
+    {"from": 2.45, "to": 4.46, "text": "В тринадцать — списал тридцать пять"},
+    {"from": 4.49, "to": 6.90, "text": "долларов за велосипед для газетного маршрута."},
+    {"from": 7.37, "to": 10.20, "text": "Его стратегия: сильный бизнес, терпение и"},
+    {"from": 10.25, "to": 11.25, "text": "сложный процент."},
+    {"from": 11.72, "to": 13.03, "text": "Главное преимущество?"},
+    {"from": 13.25, "to": 14.10, "text": "Время."}
+  ],
+  "voice": {
+    "provider": "Lumean API",
+    "templateId": "01a164cf-414a-736e-a805-08d5bfe87b07",
+    "voiceId": "gMIlPNegT3C1SdNBp6rW",
+    "voiceName": "Maxim — Deep Russian Narrator",
+    "model": "eleven_multilingual_v2",
+    "speed": 1.08
+  },
+  "video": {
+    "provider": "fal",
+    "model": "fal-ai/kling-video/v2.5-turbo/pro/text-to-video",
+    "duration": "5",
+    "aspectRatio": "16:9",
+    "prompt": "A 5-second 16:9 shot for a polished Russian economics YouTube explainer, rendered as a tactile 3D paper-cut miniature animation. Mid-century Omaha, 1940s: a small boy in a simple dark coat pedals a modest bicycle with a newspaper bag past a quiet neighborhood storefront; camera glides alongside him, then gently pushes toward a tiny copper coin and a blank cream stock certificate on a wooden desk. Layered cut-paper scenery, hand-painted edges, soft daylight, powder-blue sky, warm ivory paper, muted brown wood, restrained burgundy accents, delicate practical shadows and subtle film grain. Simple elegant shapes with an educational editorial feel; not photoreal, not glossy CGI. One continuous camera move, no scene cuts inside the shot, no readable text, no numbers, no logos, no subtitles, no watermark, no distorted hands, no extra fingers.",
+    "negativePrompt": "text, letters, numbers, logo, watermark, photorealism, plastic CGI, flicker, warped anatomy, duplicate bicycle wheels, extra limbs",
+    "cfgScale": 0.5
+  }
+}

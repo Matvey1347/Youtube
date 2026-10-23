@@ -1,0 +1,76 @@
+{
+  "provider": "fal",
+  "model": "google/nano-banana-2.1",
+  "resolution": "2K",
+  "aspectRatio": "16:9",
+  "illustrativeReconstruction": true,
+  "assets": [
+    {
+      "file": "01-omaha-grocery.jpg",
+      "title": "Approach",
+      "prompt": "1936 Omaha residential street, modest small grocery store occupying center-left of frame. An anonymous six-year-old boy with short dark hair, modest shirt, shorts and knee socks is seen from behind in foreground walking toward the store; whole body visible, feet on sidewalk, no purchases yet. Quiet human scale, believable storefront and window props, warm 8am sunlight. Composition: boy in right foreground at 60% frame height, store door center left, horizon calm, cinematic asymmetry. Horizontal cinematic 16:9 frame, handmade 1930s Omaha miniature editorial diorama photographed like a high-end historical magazine spread. Realistic faces and hands, precise practical objects, shallow depth of field, soft directional morning light, pale blue sky, aged cream paper texture, muted burgundy and brown accents, subtle cut-paper edges, tactile physical set, film grain. No written words anywhere, no signs, no logos, no labels, no captions, no watermarks, no modern objects. Anonymous boy is an illustrative character, not a likeness of Warren Buffett. Leave clean negative space for later typesetting.",
+      "requestId": "01a16844-a55e-77b2-a840-1ec236405e3b",
+      "model": "google/nano-banana-2.1",
+      "reviewStatus": "approved visual reconstruction"
+    },
+    {
+      "file": "02-at-counter.jpg",
+      "title": "Purchase",
+      "prompt": "Inside the same modest 1936 Omaha grocery, a continuous believable scene viewed from camera at the end of a wooden sales counter. The same anonymous young boy stands full body on one side of the counter, three-quarter rear view. A shopkeeper stands fully behind the other side, looking at him. Between them sits ONE wooden carrier with SIX small contour glass cola bottles, arranged visibly as two rows of three, six caps, no other bottles in the entire image. Their hands remain attached to their bodies; no isolated hands or foreground hand overlay. Warm window light, paper-miniature editorial scene. Keep faces natural, boy's face hidden. Horizontal cinematic 16:9 frame, handmade 1930s Omaha miniature editorial diorama photographed like a high-end historical magazine spread. Realistic faces and hands, precise practical objects, shallow depth of field, soft directional morning light, pale blue sky, aged cream paper texture, muted burgundy and brown accents, subtle cut-paper edges, tactile physical set, film grain. No written words anywhere, no signs, no logos, no labels, no captions, no watermarks, no modern objects. Anonymous boy is an illustrative character, not a likeness of Warren Buffett. Leave clean negative space for later typesetting.",
+      "requestId": "01a16845-09b1-7ab2-a132-1ea10b5366aa",
+      "model": "google/nano-banana-2.1",
+      "reviewStatus": "approved composition; carrier count obscured, do not represent as countable six"
+    },
+    {
+      "file": "03-six-bottle-closeup.jpg",
+      "title": "Six bottles",
+      "prompt": "One coherent close-up photographic still life inside a 1930s grocery: EXACTLY SIX individual dark-glass contour cola bottles with crown caps, three bottles in front and three behind, resting in ONE wooden six-pack carrier on a worn wooden counter. Show every cap clearly, exactly six, countable. No people, no hands, no coins, no additional bottles in background or shelves. Camera at slight overhead three-quarter angle, crate fills 60% of frame with plenty of cream colored negative space at left for motion typography. Rich realistic glass, paper grain, practical miniature set, no visible text. Horizontal cinematic 16:9 frame, handmade 1930s Omaha miniature editorial diorama photographed like a high-end historical magazine spread. Realistic faces and hands, precise practical objects, shallow depth of field, soft directional morning light, pale blue sky, aged cream paper texture, muted burgundy and brown accents, subtle cut-paper edges, tactile physical set, film grain. No written words anywhere, no signs, no logos, no labels, no captions, no watermarks, no modern objects. Anonymous boy is an illustrative character, not a likeness of Warren Buffett. Leave clean negative space for later typesetting.",
+      "requestId": "01a16845-80ce-7fd0-ba74-df2b2437a7bc",
+      "model": "google/nano-banana-2.1",
+      "reviewStatus": "alternate: exactly six visible caps but darker, less varied palette"
+    },
+    {
+      "file": "04-neighborhood-sale.jpg",
+      "title": "Resale",
+      "prompt": "1936 Omaha porch at late morning, one coherent full-body scene: the same anonymous six-year-old boy in shirt, shorts and knee socks stands on the porch steps with a wooden carrier of cola bottles beside his shoes. He offers ONE dark-glass soda bottle with his hand naturally attached to his arm to an adult neighbor who stands fully in the doorway; neighbor reaches for it with their own naturally attached arm. Faces are understated, the boy seen from behind. Story is a simple neighborhood sale, warm human expression, miniature editorial photograph, no floating objects, no giant hands, no coins. Composition leaves clean space at top left for type. Horizontal cinematic 16:9 frame, handmade 1930s Omaha miniature editorial diorama photographed like a high-end historical magazine spread. Realistic faces and hands, precise practical objects, shallow depth of field, soft directional morning light, pale blue sky, aged cream paper texture, muted burgundy and brown accents, subtle cut-paper edges, tactile physical set, film grain. No written words anywhere, no signs, no logos, no labels, no captions, no watermarks, no modern objects. Anonymous boy is an illustrative character, not a likeness of Warren Buffett. Leave clean negative space for later typesetting.",
+      "requestId": "01a16845-eeb5-7f02-bb09-edd41cc40fe8",
+      "model": "google/nano-banana-2.1",
+      "reviewStatus": "approved visual reconstruction"
+    },
+    {
+      "file": "03-six-bottle-blue.jpg",
+      "title": "Six bottles blue alternative",
+      "prompt": "Cinematic 16:9 product hero frame, EXACTLY SIX intact 1930s contour glass cola bottles in one wooden carrier, six caps clearly visible, arranged two rows of three and all countable. Physical editorial miniature diorama on a pale dusty sky-blue matte paper tabletop with subtle paper grain. Fresh daylight, strong shadows, dark amber glass, restrained red accent on carrier, clear cream left margin for later typography. No people, no hands, no coins, no extra bottles anywhere, no labels, no logos, no writing, no modern objects. Photographed as tactile objects in a magazine collage.",
+      "requestId": "01a16848-9694-7371-b9ec-f11a2cb7828a",
+      "model": "google/nano-banana-2.1",
+      "reviewStatus": "approved: exactly six visible caps, light blue editorial hero frame"
+    },
+    {
+      "file": "05-ledger-background.jpg",
+      "title": "Ledger background",
+      "prompt": "Cinematic 16:9 top-down still life, 1930s dark walnut writing desk with a simple blank open cream paper ledger placed just right of center, deep navy cloth beneath one edge, directional warm light from upper left, dimensional shadows, abundant clean empty writing area across the ledger and left half of frame. Physically plausible historical paper and desk details, high-end editorial miniature set photography, subtle paper grain. NO text, NO marks, NO numbers, NO coins, NO hands, NO bottles, NO logos, NO modern objects.",
+      "requestId": "01a16848-f90b-7732-9139-cd7b451ebe70",
+      "model": "google/nano-banana-2.1",
+      "reviewStatus": "approved visual reconstruction"
+    },
+    {
+      "file": "01-omaha-walk.mp4",
+      "source": "01-omaha-grocery.jpg",
+      "prompt": "Slow cinematic tracking shot, camera gently follows the anonymous boy from behind as he takes two or three small natural steps toward the grocery door. The storefront and 1930s street remain stable, with slight realistic parallax. Keep exactly one boy, the same clothing, intact full body and two attached arms. No text appears. No rapid camera movement, no face reveal, no additional people, no morphing.",
+      "requestId": "01a16849-72f4-73a1-acc2-1b402da8e696",
+      "model": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+      "durationSeconds": 5,
+      "reviewStatus": "approved: ffmpeg samples at 0.1, 2.5, 4.8 seconds show stable child anatomy and gentle walking"
+    },
+    {
+      "file": "02-grocery-dolly.mp4",
+      "source": "02-at-counter.jpg",
+      "prompt": "Very slow cinematic dolly push toward the wooden six-bottle carrier at the center of the counter. The shopkeeper and boy remain mostly still, breathing naturally and looking toward the carrier. Both bodies and arms remain fully attached and anatomically correct. No passing money or bottles, no reaching hands, no new objects, no bottle added or removed, no change to the wooden carrier. Warm steady window light. No text or camera shake.",
+      "requestId": "01a1684b-9d8c-7861-9c0d-9a9ee79fc2e4",
+      "model": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+      "durationSeconds": 5,
+      "reviewStatus": "approved: ffmpeg samples at 0.1, 2.5, 4.8 seconds show stable people, carrier and gentle camera push; bottle count still obscured by perspective"
+    }
+  ],
+  "visualReview": "Stills inspected. Videos sampled with Remotion-bundled ffmpeg at 0.1, 2.5 and 4.8 seconds; both approved. Earlier AVFoundation sampler was inaccurate and replaced by ffmpeg verification."
+}

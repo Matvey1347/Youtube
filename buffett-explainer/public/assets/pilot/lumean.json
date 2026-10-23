@@ -1,0 +1,12 @@
+{
+  "provider": "Lumean",
+  "voice": {
+    "id": "xS4rWdm7XjmSzwmzOl3j",
+    "name": "Tyler - Natural American Narrator",
+    "model": "eleven_multilingual_v2",
+    "speed": 1.09
+  },
+  "orderId": "01a16835-de69-7280-837c-9a25ac202c64",
+  "narration": "In 1930s Omaha, a boy bought six bottles of Coca-Cola for twenty-five cents. He sold them one by one for a nickel. Five cents profit. But the money was only part of what caught his attention.",
+  "output": "narration-en.mp3"
+}

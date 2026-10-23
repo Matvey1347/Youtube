@@ -1,0 +1,46 @@
+{
+  "name": "buffett-explainer",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@fal-ai/client": "^1.10.1",
+    "@remotion/cli": "4.0.538",
+    "@remotion/media": "^4.0.538",
+    "@remotion/transitions": "^4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.538",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render Buffett15 out/buffett-15s.mp4 --concurrency=1",
+    "render:pilot": "remotion render src/index.ts BuffettPilot15 out/buffett-pilot-15s.mp4 --concurrency=1 --port=3019 --timeout=120000",
+    "assets:pilot-voice": "node scripts/generate-pilot-voice.mjs",
+    "assets:pilot-audio": "python3 scripts/create-pilot-audio.py",
+    "assets:video": "node scripts/generate-fal-clip.mjs",
+    "assets:voice": "node scripts/generate-lumean-voice.mjs",
+    "assets:captions": "node scripts/download-lumean-service-files.mjs",
+    "assets:all": "npm run assets:voice && npm run assets:video",
+    "assets:underscore": "python3 scripts/create-underscore.py",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

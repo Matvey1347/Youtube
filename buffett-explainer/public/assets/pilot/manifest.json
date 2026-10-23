@@ -1,0 +1,144 @@
+{
+  "provider": "fal",
+  "model": "google/nano-banana-2.1",
+  "resolution": "2K",
+  "aspectRatio": "16:9",
+  "purpose": "Illustrative reconstructions, not archival photographs",
+  "assets": [
+    {
+      "file": "omaha-street.jpg",
+      "requestId": "01a16835-57c5-7753-bb5e-76a20e1b781b",
+      "prompt": "Wide establishing view of a modest 1936 Omaha Nebraska neighborhood grocery exterior on a residential street, early morning. Storefront left-center, wide empty sidewalk in foreground, enough clear space on right for cutout figures. View from across the street, slightly low camera, soft morning shadow. Horizontal 16:9 composition. 1930s Omaha editorial magazine photo collage aesthetic, believable period-correct material culture, photographic halftone print grain, ivory paper, muted ink black and warm Coca-Cola red accent. Production asset for layered motion design. No readable text, no fake archival stamp, no modern objects, no extra fingers, no historical person likeness.",
+      "sourceType": "generated reconstruction",
+      "reviewStatus": "generated background; composition review pending"
+    },
+    {
+      "file": "boy-back.png",
+      "requestId": "01a16835-c907-76c1-b063-57a35d7e1638",
+      "prompt": "Full-body anonymous six-year-old boy in a modest 1936 American shirt, short trousers, knee socks and worn shoes. Three-quarter back view, head turned away from camera, one arm by his side and other arm naturally extended toward a counter. Single figure centered on a plain pale gray seamless studio backdrop, entirely visible, easy to isolate as a cutout. Do not carry anything. Horizontal 16:9 composition. 1930s Omaha editorial magazine photo collage aesthetic, believable period-correct material culture, photographic halftone print grain, ivory paper, muted ink black and warm Coca-Cola red accent. Production asset for layered motion design. No readable text, no fake archival stamp, no modern objects, no extra fingers, no historical person likeness.",
+      "sourceType": "generated reconstruction",
+      "reviewStatus": "transparent and tight cropped; composition review pending",
+      "maskModel": "fal-ai/bria/background/remove",
+      "maskRequestId": "01a16838-478d-7cc2-b398-29de08ee8ccf",
+      "sourceFile": "boy-back.source.jpg",
+      "cropFromOriginal": [
+        1134,
+        65,
+        1839,
+        1486
+      ],
+      "dimensions": [
+        705,
+        1421
+      ],
+      "hasAlpha": true
+    },
+    {
+      "file": "counter.png",
+      "requestId": "01a16836-2773-70b1-a47c-4b2dd9f4b794",
+      "prompt": "1936 Midwestern grocery wooden sales counter, shown as a physically plausible sturdy solid object at three-quarter angle, empty countertop, glass display front, wood worn smooth at edge. Isolated object centered on a plain pale gray studio backdrop, full counter visible, easy to cut out. Horizontal 16:9 composition. 1930s Omaha editorial magazine photo collage aesthetic, believable period-correct material culture, photographic halftone print grain, ivory paper, muted ink black and warm Coca-Cola red accent. Production asset for layered motion design. No readable text, no fake archival stamp, no modern objects, no extra fingers, no historical person likeness.",
+      "sourceType": "generated reconstruction",
+      "reviewStatus": "transparent and tight cropped; composition review pending",
+      "maskModel": "fal-ai/bria/background/remove",
+      "maskRequestId": "01a16838-6ebc-7091-a0b8-de9607affdc4",
+      "sourceFile": "counter.source.jpg",
+      "cropFromOriginal": [
+        372,
+        229,
+        2372,
+        1416
+      ],
+      "dimensions": [
+        2000,
+        1187
+      ],
+      "hasAlpha": true
+    },
+    {
+      "file": "sixpack.png",
+      "requestId": "01a16836-8446-7581-b07f-42d4c99b090f",
+      "prompt": "One single 1930s wooden carrier containing EXACTLY SIX identical small contour-shaped dark glass cola bottles, arranged in two rows of three. Each bottle has one crown cap. Every bottle visibly countable. Carrier has one wooden handle. No loose bottles, no extra bottle silhouettes. Single product isolated against a plain pale gray studio backdrop, three-quarter view, full crate visible. Do not render any label or logo. Horizontal 16:9 composition. 1930s Omaha editorial magazine photo collage aesthetic, believable period-correct material culture, photographic halftone print grain, ivory paper, muted ink black and warm Coca-Cola red accent. Production asset for layered motion design. No readable text, no fake archival stamp, no modern objects, no extra fingers, no historical person likeness.",
+      "sourceType": "generated reconstruction",
+      "reviewStatus": "approved: six visible bottles, transparent and tight cropped",
+      "maskModel": "fal-ai/bria/background/remove",
+      "maskRequestId": "01a16838-931f-7991-8495-66a31d90c431",
+      "sourceFile": "sixpack.source.jpg",
+      "cropFromOriginal": [
+        563,
+        83,
+        2192,
+        1468
+      ],
+      "dimensions": [
+        1629,
+        1385
+      ],
+      "hasAlpha": true
+    },
+    {
+      "file": "bottle.png",
+      "requestId": "01a16836-ee02-7110-9413-4d15de09d6bf",
+      "prompt": "ONE SINGLE 1930s small contour-shaped dark glass cola bottle with ONE metal crown cap, no straw, no glass, no other bottle. Intact and upright, viewed in three-quarter product angle, full bottle from cap to base visible. Isolated against a plain pale gray studio backdrop, with realistic glass highlights. No label or logo. Horizontal 16:9 composition. 1930s Omaha editorial magazine photo collage aesthetic, believable period-correct material culture, photographic halftone print grain, ivory paper, muted ink black and warm Coca-Cola red accent. Production asset for layered motion design. No readable text, no fake archival stamp, no modern objects, no extra fingers, no historical person likeness.",
+      "sourceType": "generated reconstruction",
+      "reviewStatus": "transparent and tight cropped; composition review pending",
+      "maskModel": "fal-ai/bria/background/remove",
+      "maskRequestId": "01a16838-c336-7193-a962-92d16ed547b0",
+      "sourceFile": "bottle.source.jpg",
+      "cropFromOriginal": [
+        1159,
+        73,
+        1591,
+        1480
+      ],
+      "dimensions": [
+        432,
+        1407
+      ],
+      "hasAlpha": true
+    },
+    {
+      "file": "seller-hand.png",
+      "requestId": "01a16837-4a62-7dc1-8676-bc6095721e57",
+      "prompt": "Close-up isolated adult shopkeeper's right hand, 1930s rolled shirt sleeve, palm up ready to receive a coin, wrist and forearm included, anatomically correct five fingers. Plain pale gray studio backdrop, no other objects or hands. Horizontal 16:9 composition. 1930s Omaha editorial magazine photo collage aesthetic, believable period-correct material culture, photographic halftone print grain, ivory paper, muted ink black and warm Coca-Cola red accent. Production asset for layered motion design. No readable text, no fake archival stamp, no modern objects, no extra fingers, no historical person likeness.",
+      "sourceType": "generated reconstruction",
+      "reviewStatus": "transparent and tight cropped; composition review pending",
+      "maskModel": "fal-ai/bria/background/remove",
+      "maskRequestId": "01a16838-f328-7523-95b7-5052ed864649",
+      "sourceFile": "seller-hand.source.jpg",
+      "cropFromOriginal": [
+        0,
+        0,
+        2456,
+        1206
+      ],
+      "dimensions": [
+        2456,
+        1206
+      ],
+      "hasAlpha": true
+    },
+    {
+      "file": "boy-hand.png",
+      "requestId": "01a16837-b1d6-7a81-847f-59ed405f4613",
+      "prompt": "Close-up isolated small child's left hand holding a SINGLE US quarter coin between thumb and forefinger, hand naturally extended to pass coin to shopkeeper, wrist and small forearm included, anatomically correct five fingers. Plain pale gray studio backdrop, no other objects or hands, coin design need not be legible. Horizontal 16:9 composition. 1930s Omaha editorial magazine photo collage aesthetic, believable period-correct material culture, photographic halftone print grain, ivory paper, muted ink black and warm Coca-Cola red accent. Production asset for layered motion design. No readable text, no fake archival stamp, no modern objects, no extra fingers, no historical person likeness.",
+      "sourceType": "generated reconstruction",
+      "reviewStatus": "transparent and tight cropped; composition review pending",
+      "maskModel": "fal-ai/bria/background/remove",
+      "maskRequestId": "01a16839-2534-71c2-b76c-fb2051d96dde",
+      "sourceFile": "boy-hand.source.jpg",
+      "cropFromOriginal": [
+        0,
+        376,
+        2137,
+        1306
+      ],
+      "dimensions": [
+        2137,
+        930
+      ],
+      "hasAlpha": true
+    }
+  ],
+  "estimatedFalCostUsd": 0.948,
+  "estimatedCostNote": "Based on public Fal rates; excludes retries and possible variant billing."
+}
