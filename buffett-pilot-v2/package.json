@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts BuffettPilotV2 out/buffett-pilot-v2-15s.mp4 --concurrency=1 --timeout=120000",
+    "render": "remotion render src/index.ts BuffettPilotV2 out/buffett-pilot-v2-15s.mp4 --concurrency=1 --timeout=120000 --port=3127",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
